@@ -1,14 +1,19 @@
 import styles from '../styles/HomePage.module.css'
-import Head from 'next/head'
 
 export default function homePage() {
     return (
     <>
-        <div className={styles.navbarContainer}>
-            <h1 className={styles.navbarTitle}>Title</h1>
-         </div>
         <main>
-            
+            <div className="dropdown">
+                <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown button
+                </button>
+                <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a className="dropdown-item" href="#">Action</a>
+                    <a className="dropdown-item" href="#">Another action</a>
+                    <a className="dropdown-item" href="#">Something else here</a>
+                </div>
+            </div>
         </main>
     </>
     )

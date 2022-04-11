@@ -1,0 +1,16 @@
+.navbarContainer{
+    width: 100%;
+    background-color: blue;
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+.navbarTitle {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.navbarButton  {
+    background-color: transparent;
+}

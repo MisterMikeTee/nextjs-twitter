@@ -9,8 +9,14 @@
     color: white;
     font-size: 20px;
     text-align: center;
+    margin-top: 0.5rem;
 }
 
 .navbarButton  {
     background-color: transparent;
+    color: white;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    margin: 0.5rem
 }

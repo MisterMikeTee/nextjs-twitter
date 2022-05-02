@@ -1,8 +1,7 @@
 import NavBar from '../components/NavBar'
-import styles from '../styles/globalStyles.module.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import Head from 'next/head';
-import React ,{ useState, useEffect } from 'react'
+import React from 'react'
 
 
 const Layout  = ({children}) => {
